@@ -2,4 +2,4 @@ my_string = "я скажу тебе то, что для тебя не новос
 print(len(my_string))
 print(my_string.upper()) # В верхнем регистре
 print(my_string.lower()) # В нижнем регистре
-print(my_string.replace(__old=" ", __new=""))
+print(my_string.replace(" ", ""))
