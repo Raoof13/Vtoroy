@@ -18,4 +18,9 @@ print(my_dict)
 #Множества
 my_set = {10, 15, 5, 10, 5, 4, 5, 10, 5, 'Утра', True}
 print(my_set)
-my_set
+
+print(my_set.add(1))
+print(my_set.add('Соседи'))
+print(my_set.discard('Утра'))
+
+print(my_set)
